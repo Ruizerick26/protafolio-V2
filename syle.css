@@ -1,0 +1,317 @@
+html{
+    height: 100%;
+}
+body{
+    display: inline-flex;
+    height: 95%;
+    background-color: rgb(181, 181, 196);
+}
+.mapbar{
+    display: flex;
+    background-color: rgb(3, 54, 61);
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-right: 35px;
+}
+.data{
+    text-align: center;
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    margin-bottom: 5px;
+
+}
+.perfil{
+    border-radius: 100%;
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+.enlaces{
+    margin: 25px;
+}
+.enlace{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(23,77,77);
+    display: inline-flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.imagen{
+    width:50%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-self: center;
+}
+.info{
+    list-style: none;
+    color: white;
+}
+.botones{
+    padding: 5px;
+    background-color: rgb(23, 77, 77);
+    display: flex;
+    margin: 5px;
+    border-radius: 30px;
+    width: 75%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.botones:hover {
+    background-color: rgb(27, 23, 23);
+}
+.enlace:hover{
+    background-color: rgb(27, 24, 24);
+}
+.d1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Toggle{
+    background-color: rgb(221, 247, 247);
+    width: 76%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    transition: .3s;
+}
+.dato1{
+    border-style: solid;
+    border-color: white;
+    width: 35%;
+    height: max-content;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.prg{
+    list-style: none;
+}
+.m2{
+    width: 90%;
+}
+.m3{
+    width: 40%;
+}
+.logo{
+    width: 15px;
+    display: inline;
+    margin-right: 5px;
+}
+.tabla{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(3,45%);
+    align-self: center;
+    margin-left: 4px;
+    column-gap: 2em;
+}
+.m4{
+    width: 70%;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.m5{
+    width: 90%;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 0px;
+    border-radius: 10px;
+    align-content: center;
+    border-style: solid;
+    border-color: rgb(3, 54, 61);
+}
+.p1{
+    width: 25%;
+    border-radius: 200px;
+    margin-right: 10px;
+    float: left;
+}
+.portafolio{
+    font-size: 15px;
+    border-style: outset;
+    border-color: rgb(3, 54, 61);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.portdato{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.m6{
+    width: 90%;
+}
+.plus{
+    width: 10%;
+    padding: 2px;
+    cursor: pointer;
+}
+.imagenLogo{
+    padding-left: 10%;
+    margin: 25px;
+}
+.modal{
+    display: flex;
+    background-color: rgb(221, 247, 247);
+    width: 60%;
+    max-width: 100%;
+    height: max-content;
+    flex-direction: row;
+    padding: 25px;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    position: fixed;
+    background-color: rgba(3, 54, 61, 0.471);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cerrar{
+    background-color: rgb(23, 77, 77);
+    width: max-content;
+    padding: 7px;
+    border-radius: 100px;
+    margin: 3px;
+    cursor: pointer;
+}
+.d3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.m7{
+    align-self: center;
+    margin-left: 30%;
+    margin-right: 30% ;
+}
+.m8{
+    border-left: 5px solid black;
+    height: 76%;
+    padding-left: 35px;
+    margin: 15px;
+    width: max-content;
+}
+.card{
+    display: flex;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid black;
+    width: max-content;
+    font-size: 20px;
+}
+.d4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.m9{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.m10{
+    width: 50%;
+    height: max-content;
+    margin-left: 0px;
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-floating{
+    position: relative;
+    margin: 15px;
+}
+.form-control{
+    width: 93%;
+    height: 40px;
+    padding: 0px 15px;
+    border: 3px  solid #130303;
+    font-size: 13px;
+    color:rgb(0, 0, 0); 
+    background: transparent;
+    outline: none;
+}
+
+.form-label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    pointer-events: none;
+    transition: .3s;
+}
+.form-control:focus{
+    border: 3px solid rgb(3, 54, 61);
+}
+.form-control:focus ~ .form-label,
+.form-control:valid ~ .form-label{
+    top: 0;
+    font-size: 15px;
+    padding: 0 15px;
+    background-color: rgb(3, 54, 61);
+    border-radius: 10px;
+    color:white;
+}
+.cor{
+    width: 100%;
+}
+.mes{
+    width: 94%;
+    height: 200px;
+    padding-top: 5px;
+}
+.mes label{
+    top:15%;
+}
+.nom{
+    width: 43%;
+}
+.enviar{
+    background-color: rgb(23,77,77);
+    color: white;
+    width: 17%;
+    padding: 5px;
+    margin-left: 40%;
+}
+.inactive{
+    display: none;
+    transition: .3s;
+}
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+#tomail{
+    opacity: 0;
+}
